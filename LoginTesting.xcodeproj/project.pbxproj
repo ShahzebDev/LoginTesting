@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		FCFADB1C238C4AF0009F5FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFADB1A238C4AF0009F5FC8 /* Main.storyboard */; };
 		FCFADB1E238C4AFA009F5FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFADB1D238C4AFA009F5FC8 /* Assets.xcassets */; };
 		FCFADB21238C4AFA009F5FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFADB1F238C4AFA009F5FC8 /* LaunchScreen.storyboard */; };
+		FCFADB29238C6745009F5FC8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFADB28238C6745009F5FC8 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FCFADB1D238C4AFA009F5FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCFADB20238C4AFA009F5FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCFADB22238C4AFA009F5FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFADB28238C6745009F5FC8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,6 @@
 				991B05D06743A0B92AEA6FD9 /* Pods-LoginTesting.debug.xcconfig */,
 				F803441E1ADAF72BE19B40C9 /* Pods-LoginTesting.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				FCFADB1D238C4AFA009F5FC8 /* Assets.xcassets */,
 				FCFADB1F238C4AFA009F5FC8 /* LaunchScreen.storyboard */,
 				FCFADB22238C4AFA009F5FC8 /* Info.plist */,
+				FCFADB28238C6745009F5FC8 /* MainViewController.swift */,
 			);
 			path = LoginTesting;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 				FCFADB19238C4AF0009F5FC8 /* ViewController.swift in Sources */,
 				FCFADB15238C4AF0009F5FC8 /* AppDelegate.swift in Sources */,
 				FCFADB17238C4AF0009F5FC8 /* SceneDelegate.swift in Sources */,
+				FCFADB29238C6745009F5FC8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
